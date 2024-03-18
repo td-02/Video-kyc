@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Verification</title>
+    <link rel="stylesheet" type="text/css" href="aadhar.css">
+</head>
+<body>
+    <div id="video-container">
+        <video id="video" autoplay playsinline></video>
+        <button id="capture-button" onclick="captureImage()">Capture</button>
+    </div>
+    <canvas id="captured-image"></canvas>
+    <div id="buttons-container">
+        <button id="capture-again-button" onclick="captureAgain()">Capture Again</button>
+        <button id="submit-button" onclick="submitData()">Submit</button>
+    </div>
+
+</body>
+<script src="aadhar.js"></script>
+</html>
